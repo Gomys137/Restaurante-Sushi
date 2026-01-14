@@ -37,7 +37,7 @@ export default function NavBar() {
           <Link href="/" className="nav-logo">
             <img 
               src="/logo.png" 
-              alt="Sushi Shogun" 
+              alt="Logótipo do restaurante de sushi" 
               className="logo-img"
               width={160}
               height={60}
@@ -59,14 +59,14 @@ export default function NavBar() {
               </Link>
             </li>
             <li>
-              <Link href="#avaliacoes" className="nav-link" onClick={handleLinkClick}>
-                <span className="link-text">AVALIAÇÕES</span>
+              <Link href="#servicos" className="nav-link" onClick={handleLinkClick}>
+                <span className="link-text">SERVIÇOS</span>
                 <span className="link-underline"></span>
               </Link>
             </li>
             <li>
-              <Link href="#localizacao" className="nav-link" onClick={handleLinkClick}>
-                <span className="link-text">LOCALIZAÇÃO</span>
+              <Link href="#contacto" className="nav-link" onClick={handleLinkClick}>
+                <span className="link-text">CONTACTO</span>
                 <span className="link-underline"></span>
               </Link>
             </li>
@@ -76,9 +76,9 @@ export default function NavBar() {
           <a 
             href="#pedido" 
             className="nav-button"
-            aria-label="Fazer pedido online"
+            aria-label="Fazer pedido"
           >
-            <span>Pedir Agora</span>
+            <span>Fazer Pedido</span>
             <i className="fa-solid fa-basket-shopping"></i>
           </a>
 
@@ -112,37 +112,37 @@ export default function NavBar() {
                 </Link>
               </li>
               <li>
-                <Link href="#avaliacoes" className="mobile-link" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-star"></i>
-                  <span>AVALIAÇÕES</span>
+                <Link href="#servicos" className="mobile-link" onClick={handleLinkClick}>
+                  <i className="fa-solid fa-concierge-bell"></i>
+                  <span>SERVIÇOS</span>
                 </Link>
               </li>
               <li>
-                <Link href="#localizacao" className="mobile-link" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-location-dot"></i>
-                  <span>LOCALIZAÇÃO</span>
+                <Link href="#contacto" className="mobile-link" onClick={handleLinkClick}>
+                  <i className="fa-solid fa-envelope"></i>
+                  <span>CONTACTO</span>
                 </Link>
               </li>
             </ul>
 
             <div className="mobile-cta">
               <a 
-                href="tel:+351920614257" 
+                href="#contacto" 
                 className="mobile-button"
                 onClick={handleLinkClick}
               >
                 <i className="fa-solid fa-phone"></i>
-                <span>Ligar Agora</span>
+                <span>Entrar em Contacto</span>
               </a>
               
               <div className="mobile-info">
                 <p className="mobile-phone">
                   <i className="fa-solid fa-phone"></i>
-                  +351 920 614 257
+                  Contacto a definir
                 </p>
                 <p className="mobile-address">
                   <i className="fa-solid fa-location-dot"></i>
-                  Algueirão-Mem Martins
+                  Localização a definir
                 </p>
               </div>
             </div>

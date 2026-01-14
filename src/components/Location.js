@@ -4,20 +4,20 @@ export default function Location() {
       id: 1,
       icon: "fa-solid fa-location-dot",
       color: "red",
-      title: "Morada",
-      description: "R. Angola, 2725-219<br/>Algueirão-Mem Martins",
-      linkText: "Como Chegar",
-      linkUrl: "https://maps.google.com/?q=R.+Angola,+2725-219+Algueirão-Mem+Martins",
+      title: "Localização",
+      description: "Localização a definir<br/>Portugal",
+      linkText: "Ver Localização",
+      linkUrl: "#",
       linkIcon: "fa-solid fa-arrow-right"
     },
     {
       id: 2,
       icon: "fa-solid fa-phone",
       color: "yellow",
-      title: "Telefone",
-      description: "Faça a sua encomenda por telefone",
-      linkText: "Ligar Agora",
-      linkUrl: "tel:+351920614257",
+      title: "Contacto",
+      description: "Disponível para pedidos e informações",
+      linkText: "Entrar em Contacto",
+      linkUrl: "#",
       linkIcon: "fa-solid fa-arrow-right"
     },
     {
@@ -25,9 +25,9 @@ export default function Location() {
       icon: "fa-solid fa-clock",
       color: "green",
       title: "Horário",
-      description: "Aberto todos os dias<br/>Das 12:00 às 23:00",
-      linkText: "Ver no Google Maps",
-      linkUrl: "https://maps.google.com/?q=Sushi+Shogun+Algueirão-Mem+Martins",
+      description: "Horário flexível<br/>A definir",
+      linkText: "Consultar Horário",
+      linkUrl: "#",
       linkIcon: "fa-solid fa-arrow-right"
     }
   ];
@@ -37,10 +37,10 @@ export default function Location() {
       <div className="location-container">
         <header className="location-header">
           <h2 id="location-heading" className="location-title">
-            Onde Estamos <span className="highlight">Algueirão-Mem Martins</span>
+            Onde Estamos <span className="highlight">Localização</span>
           </h2>
           <p className="location-subtitle">
-            Take away e entrega de sushi fresco, preparados no momento
+            Take away e entrega de sushi preparados no momento
           </p>
         </header>
 
@@ -64,8 +64,6 @@ export default function Location() {
                   <a
                     href={item.linkUrl}
                     className="card-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     aria-label={`${item.linkText} - ${item.title}`}
                   >
                     <span>{item.linkText}</span>
@@ -85,14 +83,12 @@ export default function Location() {
               <div className="map-content">
                 <h3 className="map-title">Mapa & Direções</h3>
                 <p className="map-description">
-                  Veja a localização exata e obtenha direções no Google Maps
+                  Área reservada para integração com mapa e direções
                 </p>
                 <a
-                  href="https://maps.google.com/?q=Sushi+Shogun+Algueirão-Mem+Martins"
+                  href="#"
                   className="map-button"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="Abrir localização no Google Maps"
+                  aria-label="Abrir mapa"
                 >
                   <span>Abrir Mapa</span>
                   <i className="fa-solid fa-external-link-alt" aria-hidden="true"></i>

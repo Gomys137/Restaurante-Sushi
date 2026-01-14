@@ -4,28 +4,28 @@ export default function Menu() {
       id: 1,
       image: '/sushi.jpg',
       title: 'Sushi & Sashimi',
-      description: 'Peixe fresco, cortes precisos e combinações equilibradas',
+      description: 'Seleção de peças preparadas com peixe fresco e cortes precisos',
       color: '#e63946'
     },
     {
       id: 2,
       image: '/temaki.jpg',
       title: 'Temakis',
-      description: 'Preparados na hora, cheios de sabor e frescura',
+      description: 'Preparados no momento, com combinações equilibradas e frescas',
       color: '#4e6cff'
     },
     {
       id: 3,
       image: '/gyosa.jpg',
       title: 'Entradas & Quentes',
-      description: 'Gyozas, pratos quentes e acompanhamentos japoneses',
+      description: 'Entradas japonesas, pratos quentes e acompanhamentos variados',
       color: '#34c759'
     },
     {
       id: 4,
       image: '/combinados.jpg',
       title: 'Combinados',
-      description: 'Seleções ideais para partilhar ou desfrutar sozinho',
+      description: 'Seleções pensadas para partilhar ou desfrutar individualmente',
       color: '#f5b700'
     }
   ];
@@ -38,7 +38,7 @@ export default function Menu() {
             O Nosso <span className="highlight">Menu</span>
           </h2>
           <p className="menu-subtitle">
-            Sushi fresco preparado no momento, perfeito para levar ou receber em casa
+            Sushi preparado no momento, ideal para take away ou entrega
           </p>
         </header>
 
@@ -55,7 +55,7 @@ export default function Menu() {
                   className="menu-img" 
                   style={{ backgroundImage: `url('${item.image}')` }}
                   role="img"
-                  aria-label={`Imagem de ${item.title}`}
+                  aria-label={`Imagem ilustrativa de ${item.title}`}
                 >
                   <div className="image-overlay"></div>
                 </div>
@@ -71,9 +71,9 @@ export default function Menu() {
                 </div>
                 <button 
                   className="menu-view-btn"
-                  aria-label={`Ver ${item.title} no menu`}
+                  aria-label={`Ver opções de ${item.title}`}
                 >
-                  <span>Ver mais</span>
+                  <span>Ver opções</span>
                   <i className="fa-solid fa-arrow-right" aria-hidden="true"></i>
                 </button>
               </div>
@@ -83,9 +83,9 @@ export default function Menu() {
 
         <div className="menu-cta">
           <a 
-            href="/menu" 
+            href="#"
             className="menu-button"
-            aria-label="Ver o menu completo do restaurante"
+            aria-label="Ver menu completo"
           >
             <span>Ver Menu Completo</span>
             <i className="fa-solid fa-utensils" aria-hidden="true"></i>

@@ -11,22 +11,22 @@ export default function OrderOnline() {
             <div className="icon-pulse"></div>
           </div>
 
-          <h2 id="order-heading">Peça Online ou por Telefone</h2>
+          <h2 id="order-heading">Faça o Seu Pedido</h2>
           <p className="order-description">
-            Sushi fresco preparado no momento e entregue em sua casa. <br className="desktop-only" />
-            Também disponível para take away.
+            Sushi preparado no momento, com opções de entrega ao domicílio
+            e recolha em take away.
           </p>
 
           <div className="order-buttons" role="group" aria-label="Opções de pedido">
             <a 
-              href="tel:+351920614257" 
+              href="#contacto" 
               className="order-btn-primary"
-              aria-label="Ligar para fazer pedido"
+              aria-label="Entrar em contacto para fazer pedido"
             >
               <span className="btn-icon" aria-hidden="true">
                 <i className="fa-solid fa-phone"></i>
               </span>
-              <span className="btn-text">Ligar Agora</span>
+              <span className="btn-text">Entrar em Contacto</span>
               <span className="btn-arrow" aria-hidden="true">
                 <i className="fa-solid fa-arrow-right"></i>
               </span>
@@ -35,7 +35,7 @@ export default function OrderOnline() {
             <a 
               href="#menu" 
               className="order-btn-secondary"
-              aria-label="Ver o menu completo"
+              aria-label="Ver o menu"
             >
               <span className="btn-icon" aria-hidden="true">
                 <i className="fa-solid fa-book-open"></i>

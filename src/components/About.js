@@ -9,7 +9,7 @@ export default function About() {
             <div className="image-wrapper">
               <img 
                 src="/sushi-about.jpg" 
-                alt="Preparação de sushi fresco no Sushi Shogun"
+                alt="Preparação de sushi com ingredientes frescos"
                 width={600}
                 height={400}
                 className="about-img"
@@ -27,35 +27,36 @@ export default function About() {
               <span className="about-subtitle">Quem Somos</span>
               <h2 id="about-heading" className="about-title">
                 Sobre o <br />
-                <span className="highlight">Sushi Shogun</span>
+                <span className="highlight">Nosso Conceito</span>
               </h2>
             </header>
 
             <div className="about-description">
               <p>
-                O <strong>Sushi Shogun</strong> nasceu com um objetivo simples:
-                levar <strong>sushi fresco e de elevada qualidade</strong> até si,
-                com todo o cuidado, rigor e atenção ao detalhe.
+                Somos um projeto dedicado à preparação de
+                <strong> sushi de qualidade</strong>,
+                com foco na frescura dos ingredientes e no rigor de cada etapa do processo.
               </p>
 
               <p>
-                Trabalhamos maioritariamente em regime de <strong>take away e entrega</strong>,
-                garantindo que cada peça é preparada no momento,
-                utilizando ingredientes frescos e peixe cuidadosamente selecionado.
+                Cada peça é preparada no momento,
+                respeitando técnicas tradicionais e padrões elevados de higiene,
+                garantindo consistência e segurança alimentar.
               </p>
 
               <p>
-                Acreditamos que a verdadeira qualidade está na consistência,
-                na boa relação <strong>qualidade/preço</strong> e na satisfação de quem confia em nós,
-                seja para uma refeição rápida ou um momento especial.
+                O nosso compromisso passa por oferecer
+                <strong> sushi bem executado</strong>,
+                com uma abordagem equilibrada entre qualidade,
+                apresentação e relação qualidade/preço.
               </p>
             </div>
 
             <div className="about-quote">
               <i className="fa-solid fa-quote-left" aria-hidden="true"></i>
               <blockquote>
-                "Sempre tudo fresco, bem embalado e delicioso. Vou repetir de certeza!"
-                <footer className="quote-footer">— Cliente Satisfeito</footer>
+                "Sushi preparado com cuidado, frescura e atenção ao detalhe."
+                <footer className="quote-footer">— Feedback de Cliente</footer>
               </blockquote>
             </div>
 
@@ -66,12 +67,12 @@ export default function About() {
               </a>
               <div className="about-stats">
                 <div className="stat">
-                  <span className="stat-number">5★</span>
-                  <span className="stat-label">Avaliação Média</span>
+                  <span className="stat-number">✔</span>
+                  <span className="stat-label">Foco na Frescura</span>
                 </div>
                 <div className="stat">
-                  <span className="stat-number">100%</span>
-                  <span className="stat-label">Foco na Qualidade</span>
+                  <span className="stat-number">✔</span>
+                  <span className="stat-label">Padrões de Qualidade</span>
                 </div>
               </div>
             </div>

@@ -5,12 +5,12 @@ export default function Hero() {
 
       <div className="hero-content">
         <h1>
-          Sushi Fresco para Levar em<br />
-          <span className="highlight">Algueirão-Mem Martins</span>
+          Sushi Preparado no Momento<br />
+          <span className="highlight">com Frescura e Qualidade</span>
         </h1>
 
         <p className="hero-subtitle">
-          Take Away · Entrega ao Domicílio · Qualidade Garantida
+          Take Away · Entrega ao Domicílio · Atenção ao Detalhe
         </p>
 
         <div className="hero-buttons">
@@ -19,14 +19,14 @@ export default function Hero() {
             href="#menu"
             aria-label="Ver o menu completo"
           >
-            Ver o Menu
+            Ver Menu
           </a>
           <a
             className="hero-btn hero-secondary"
             href="#pedido"
             aria-label="Fazer pedido online"
           >
-            Pedir Agora
+            Fazer Pedido
           </a>
         </div>
       </div>

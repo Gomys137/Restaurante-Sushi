@@ -3,38 +3,38 @@ export default function Features() {
     {
       icon: "fa-solid fa-fish",
       color: "red",
-      title: "Sushi Sempre Fresco",
-      description: "Peixe fresco e ingredientes selecionados, preparados no momento com rigor e atenção ao detalhe."
+      title: "Sushi Fresco",
+      description: "Utilização de peixe fresco e ingredientes selecionados, preparados no momento com rigor e atenção ao detalhe."
     },
     {
       icon: "fa-solid fa-star",
       color: "yellow",
-      title: "Avaliação de 5.0 Estrelas",
-      description: "Clientes satisfeitos destacam a frescura, a qualidade e o cuidado em cada encomenda."
+      title: "Qualidade Reconhecida",
+      description: "Aposta na consistência, na apresentação e na qualidade em cada preparação."
     },
     {
       icon: "fa-solid fa-box",
       color: "green",
       title: "Take Away & Entrega",
-      description: "Ideal para levar ou receber em casa, com embalagens cuidadas que preservam a qualidade."
+      description: "Soluções práticas para consumo fora do espaço, com embalagens adequadas que preservam a frescura."
     },
     {
       icon: "fa-solid fa-bolt",
       color: "orange",
-      title: "Preparação Rápida",
-      description: "Processo eficiente sem comprometer a qualidade, para que o seu pedido chegue no ponto certo."
+      title: "Preparação Eficiente",
+      description: "Processos organizados que permitem uma preparação cuidada sem comprometer os tempos de espera."
     },
     {
       icon: "fa-solid fa-face-smile-beam",
       color: "blue",
-      title: "Atendimento Atencioso",
-      description: "Serviço próximo e simpático, focado na satisfação de quem nos escolhe."
+      title: "Atendimento Profissional",
+      description: "Serviço atencioso e orientado para a satisfação do cliente em todas as etapas."
     },
     {
       icon: "fa-solid fa-money-bill-wave",
       color: "red",
-      title: "Qualidade / Preço Equilibrados",
-      description: "Sushi de elevada qualidade a preços justos, ideal para o dia a dia ou ocasiões especiais."
+      title: "Equilíbrio Qualidade / Preço",
+      description: "Proposta equilibrada, adequada tanto para o dia a dia como para momentos especiais."
     }
   ];
 
@@ -43,10 +43,10 @@ export default function Features() {
       <div className="features-container">
         <header className="features-header">
           <h2 id="features-heading" className="features-title">
-            Porque Escolher o <span className="highlight">Sushi Shogun?</span>
+            Porque Escolher <span className="highlight">Este Conceito de Sushi?</span>
           </h2>
           <p className="features-subtitle">
-            Frescura, consistência e confiança em cada pedido
+            Frescura, consistência e atenção ao detalhe em cada pedido
           </p>
         </header>
 

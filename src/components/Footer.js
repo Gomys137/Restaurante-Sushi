@@ -9,26 +9,28 @@ export default function Footer() {
             <img 
               src="/logo.png" 
               className="footer-logo" 
-              alt="Sushi Shogun" 
+              alt="Logótipo do restaurante de sushi" 
               width={140}
               height={60}
             />
           </div>
 
           <p className="footer-description">
-            Sushi fresco preparado no momento,<br />
-            com foco em take away e entrega.<br />
-            Qualidade que se sente em cada pedido.
+            Sushi preparado no momento,<br />
+            com foco na frescura e na qualidade.<br />
+            Uma experiência pensada para cada pedido.
           </p>
 
           <div className="footer-rating">
-            <div className="stars" aria-label="Avaliação de 5 estrelas">
+            <div className="stars" aria-label="Indicador de qualidade">
               {[...Array(5)].map((_, i) => (
                 <i key={i} className="fa-solid fa-star" aria-hidden="true"></i>
               ))}
             </div>
-            <span className="rating-text">5.0/5</span>
-            <span className="rating-count" aria-hidden="true">• Avaliações reais de clientes</span>
+            <span className="rating-text">Qualidade reconhecida</span>
+            <span className="rating-count" aria-hidden="true">
+              • Baseado na experiência dos clientes
+            </span>
           </div>
         </div>
 
@@ -39,7 +41,7 @@ export default function Footer() {
             <li><a href="#home" className="footer-link">Início</a></li>
             <li><a href="#menu" className="footer-link">Menu</a></li>
             <li><a href="#sobre" className="footer-link">Sobre</a></li>
-            <li><a href="#avaliacoes" className="footer-link">Avaliações</a></li>
+            <li><a href="#contacto" className="footer-link">Contacto</a></li>
           </ul>
         </div>
 
@@ -47,10 +49,9 @@ export default function Footer() {
         <div className="footer-col">
           <h3 className="footer-col-title">Serviços</h3>
           <ul className="footer-links" role="list">
-            <li><a href="#pedido" className="footer-link">Pedir Online</a></li>
-            <li><a href="#recolha" className="footer-link">Take Away</a></li>
+            <li><a href="#pedido" className="footer-link">Pedido Online</a></li>
+            <li><a href="#takeaway" className="footer-link">Take Away</a></li>
             <li><a href="#entrega" className="footer-link">Entrega ao Domicílio</a></li>
-            <li><a href="#contacto" className="footer-link">Contacto</a></li>
           </ul>
         </div>
 
@@ -58,34 +59,28 @@ export default function Footer() {
         <div className="footer-col">
           <h3 className="footer-col-title">Contactos</h3>
           <address className="footer-address">
-            Algueirão-Mem Martins<br/>
-            Sintra, Portugal
+            Localização a definir<br/>
+            Portugal
           </address>
 
           <div className="footer-social" aria-label="Redes sociais">
             <a 
-              href="https://facebook.com"
+              href="#"
               className="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
               aria-label="Facebook"
             >
               <i className="fa-brands fa-facebook-f" aria-hidden="true"></i>
             </a>
             <a 
-              href="https://instagram.com"
+              href="#"
               className="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
               aria-label="Instagram"
             >
               <i className="fa-brands fa-instagram" aria-hidden="true"></i>
             </a>
             <a 
-              href="https://wa.me/351920614257"
+              href="#"
               className="social-link"
-              target="_blank"
-              rel="noopener noreferrer"
               aria-label="WhatsApp"
             >
               <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
@@ -98,12 +93,10 @@ export default function Footer() {
 
       <div className="footer-bottom">
         <p className="footer-copyright">
-          © {new Date().getFullYear()} Sushi Shogun. Todos os direitos reservados.
+          © {new Date().getFullYear()} Restaurante de Sushi. Todos os direitos reservados.
         </p>
         <div className="footer-made-with">
-          <span>Feito com </span>
-          <i className="fa-solid fa-heart" aria-hidden="true"></i>
-          <span> em Portugal</span>
+          <span>Desenvolvido em Portugal</span>
         </div>
       </div>
     </footer>
